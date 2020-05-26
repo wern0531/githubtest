@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI計算機</title>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="content">
+            <div class="blogo">
+               <img src="images/BMICLogo.png" alt="">
+            </div>
+            <div class="HandM">
+                <label for="H">身高 cm</label><br>
+                <input id="H" type="text" placeholder="請輸入身高"><br>
+                <label for="M">體重 kg</label><br>
+                <input id="M" type="text" placeholder="請輸入體重">
+            </div>
+            <div>
+                <input class="btn" type="button" value="看結果">
+            </div>
+            
+        </div>
+        <h1 class="BMIRecord">BMI紀錄</h1>
+        <div class="list">
+            <div class="BMIdata">
+                <div class="BMIcolor green"></div>
+                <div class="result">理想</div>
+                <div>BMI<p class="BMI"></p></div>
+                <div>weight<p class="weight"></p></div>             
+                <div>height<p class="height"></p></div>
+                <div class="date"></div>           
+            </div>
+        </div>
+        <div class="footer">
+            <img class="slogo" src="images/BMICLogo.png" alt="">
+        </div>
+    </div>
+
+    <script src="js/all.js"></script>
+</body>
+</html>
